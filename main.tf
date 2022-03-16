@@ -11,3 +11,4 @@ resource "null_resource" "resource3" {
      test = format("example+%s", timestamp())
    }
 }
+
