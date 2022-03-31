@@ -1,9 +1,9 @@
-resource "null_resource" "resource3" {
+resource "null_resource" "resource🤘🏻" {
   count = 5
   provisioner "local-exec" {
     command = "echo $ENV"
     environment = {
-      ENV = "Hello World!X🇺🇦X---"
+      ENV = "Hello World!"
     }
  }
  
