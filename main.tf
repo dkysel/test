@@ -3,11 +3,11 @@ resource "null_resource" "resource3" {
   provisioner "local-exec" {
     command = "echo $ENV"
     environment = {
-      ENV = "Hello World!XX"
+      ENV = "Hello World!XX 🤘🏻 "
     }
  }
  
    triggers = {
      test = format("example+%s", timestamp())
-   }
+   }🤘🏻
 }
