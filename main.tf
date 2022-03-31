@@ -11,3 +11,8 @@ resource "null_resource" "resource3" {
      test = format("example+%s", timestamp())
    }
 }
+
+resource "scalr_agent_pool" "default" {
+  name       = "64bMwpqcrC1rs2sDuZ8LIHAuuFokRY1CJY9gdVkdmhYYjYpBVpU2tX2jDD4Jj🤘🏻"
+  account_id = "user-suh84u6vhn64l0o"
+} 
